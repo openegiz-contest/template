@@ -7,6 +7,7 @@
 Требования (Docker, `make`, настройка Windows/WSL2) — в [OPENEGIZ.ru.md](OPENEGIZ.ru.md) / [OPENEGIZ.md](OPENEGIZ.md).
 
 ```bash
+sudo apt install -y make   # если make ещё нет (чистая Ubuntu)
 make up            # платформа OpenEgiz
 make example-mine  # Пример рудника: двойники, симулятор, дашборд
 ```
@@ -26,7 +27,7 @@ make example-mine  # Пример рудника: двойники, симуля
 | `SUBMISSION.md` | Описание Решения — **обязательно заполнить** |
 | `presentation.pdf` | Презентация — **обязательно положить в корень** |
 | `examples/mine/` | Пример рудника — стартовая точка |
-| `OPENEGIZ.md`, `OPENEGIZ.ru.md` | Документация платформы OpenEgiz v1.0.1 |
+| `OPENEGIZ.md`, `OPENEGIZ.ru.md` | Документация платформы OpenEgiz v1.0.2 |
 
 Решение — это ветка `main` в момент Заморозки. Всё, что не в `main`, не оценивается.
 
