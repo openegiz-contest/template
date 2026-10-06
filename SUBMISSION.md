@@ -20,7 +20,7 @@
 
 <!-- What has been verified, what is unfinished, which bugs are known. -->
 
-## Module rationale
+## Module justification
 
 <!-- For each Module: problem → metric → result, measured on the Stand against the same mine without this Module (for example, output in tonnes per shift without dispatch and with it), and how to reproduce the measurement. Only effects reproducible on the Stand are taken into account. -->
 
@@ -28,7 +28,7 @@
 
 <!--
 - Synthetic and real data.
-- Sources of parameters: equipment specifications, reference literature, industrial safety regulations, datasets.
+- Sources of parameters: equipment data sheets, reference literature, industrial safety regulations, datasets.
 - Datasets: source, license, how they are provided (in the repository or downloaded per the README).
 Confidential data of organizations and personal data are prohibited.
 -->
