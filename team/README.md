@@ -1,5 +1,5 @@
 # team/
 
-Место для кода Команды: сервисы, симуляторы, модели, дашборды, 3D-сцена. Использовать эту папку необязательно: менять можно всё, включая ядро OpenEgiz v1.0.2.
+Directory for the Team's code: services, simulators, models, dashboards, 3D scenes. Using this directory is optional: any part may be changed, including the core of OpenEgiz v1.0.2.
 
-С чего начать: [Пример рудника](../examples/mine/) показывает, как создать двойники, слать телеметрию и подключить свой сервис к `make up` через overlay `compose.yml`.
+The [Example Mine](../examples/mine/) shows how twins are structured, how telemetry is sent and how to connect your own service to `make up` through an overlay `compose.yml`.

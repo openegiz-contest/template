@@ -1,40 +1,40 @@
-# <Название Команды>: цифровой рудник на OpenEgiz
+# <Team name>: a digital mine on OpenEgiz
 
-> Это Репозиторий команды конкурса «Цифровой рудник на OpenEgiz». **Перепишите этот файл под своё Решение.** ИИ-жюри поднимает Решение строго по нему, с нуля, на чистой машине. Писать можно по-русски, по-казахски или по-английски.
+> Team Repository of the contest “Digital Mine on OpenEgiz”. **Replace the contents of this file with the instructions for your Submission.** The AI Jury runs the Submission strictly by these instructions, from scratch, in the Judge Environment. Accepted languages: English, Kazakh, Russian.
 
-## Запуск
+## Running
 
-Требования (Docker, `make`, настройка Windows/WSL2) — в [OPENEGIZ.ru.md](OPENEGIZ.ru.md) / [OPENEGIZ.md](OPENEGIZ.md).
+Requirements (Docker, `make`, Windows/WSL2 setup) are in [OPENEGIZ.md](OPENEGIZ.md) / [OPENEGIZ.ru.md](OPENEGIZ.ru.md).
 
 ```bash
-sudo apt install -y make   # если make ещё нет (чистая Ubuntu)
-make up            # платформа OpenEgiz
-make example-mine  # Пример рудника: двойники, симулятор, дашборд
+sudo apt install -y make   # if make is missing (clean Ubuntu)
+make up            # the OpenEgiz platform
+make example-mine  # the Example Mine: twins, simulator, dashboard
 ```
 
-Замените эти команды командами вашего Решения. Правило конкурса: Решение поднимается по этому README одной командой. Если что-то нужно скачать (датасеты, модели) или собрать, это тоже должно быть здесь.
+Replace these commands with the commands of your Submission. The Submission must start by following these instructions without manual intervention (Rules, clause 6.4); downloading datasets and models and building are also listed here.
 
-## Что открыть
+## What to open
 
-- Grafana — адрес и логин печатает `make up`.
-- <где смотреть визуализацию рудника, какие дашборды>
+- Grafana: the address and login are printed by `make up`.
+- <where to see the mine visualization, which dashboards>
 
-## Что в репозитории
+## Repository contents
 
-| Путь | Что |
+| Path | Contents |
 |---|---|
-| `team/` | Место для кода Команды. Необязательно: менять можно всё, включая ядро платформы |
-| `SUBMISSION.md` | Описание Решения — **обязательно заполнить** |
-| `presentation.pdf` | Презентация — **обязательно положить в корень** |
-| `examples/mine/` | Пример рудника — стартовая точка |
-| `OPENEGIZ.md`, `OPENEGIZ.ru.md` | Документация платформы OpenEgiz v1.0.2 |
+| `team/` | Directory for the Team's code. Using it is optional: any part may be changed, including the platform core |
+| `SUBMISSION.md` | Description of the Submission: **required** |
+| `presentation.pdf` | Presentation: **required**, in the repository root |
+| `examples/mine/` | The Example Mine: shows how a digital mine is built on OpenEgiz. It is not a basis for the Submission |
+| `OPENEGIZ.md`, `OPENEGIZ.ru.md` | Documentation of the OpenEgiz platform v1.0.2 |
 
-Решение — это ветка `main` в момент Заморозки. Всё, что не в `main`, не оценивается.
+The Submission is the `main` branch at the moment of the Freeze; other branches are not evaluated.
 
-## Лицензия
+## License
 
-MIT, см. [LICENSE](LICENSE). Авторство вашего кода остаётся за вами: допишите в `LICENSE` строку `Copyright (c) 2026 <состав Команды>`.
+The Submission is distributed under the MIT license, see [LICENSE](LICENSE). Copyright belongs to the Team: add the line `Copyright (c) 2026 <Team members>` to `LICENSE`.
 
 ---
 
-Платформа: [aleka07/openegiz](https://github.com/aleka07/openegiz). Если она вам пригодилась, поставьте звезду — так проект находят другие люди и компании.
+Platform: [aleka07/openegiz](https://github.com/aleka07/openegiz). If the platform was useful to you, support the project with a star on GitHub.

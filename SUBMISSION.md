@@ -1,48 +1,48 @@
 # SUBMISSION
 
-<!-- Заполните все разделы. ИИ-жюри читает этот файл вместе с кодом, Отчётом сборки, презентацией и интерфейсом на поднятом Стенде. Пишите по-русски, по-казахски или по-английски. Эти комментарии-подсказки можно удалить. -->
+<!-- Fill in every section. The AI Jury studies this file together with the code, the Build Report, the presentation and the Stand's interface. Accepted languages: English, Kazakh, Russian. These hint comments may be deleted. -->
 
-## Команда
+## Team
 
-| Участник | GitHub |
+| Participant | GitHub |
 |---|---|
 |  |  |
 
-## Модули
+## Modules
 
-<!-- Какие Модули Карты рудника сделаны и насколько. Свои Модули вне Карты тоже засчитываются, если описаны так же: что это на руднике, какие двойники и данные, какая метрика. -->
+<!-- Implemented Modules: from the Mine Map or your own. -->
 
-| Модуль | Уровень (минимально / хорошо / отлично) | Где в коде |
-|---|---|---|
-|  |  |  |
+| Module | Location in the code |
+|---|---|
+|  |  |
 
-## Что работает и что нет
+## What works and what does not
 
-<!-- Честно: что проверено, что не доделано, что известно как сломанное. Отчёт сборки всё равно это покажет. -->
+<!-- What has been verified, what is unfinished, which bugs are known. -->
 
-## Обоснование Модулей
+## Module rationale
 
-<!-- Для каждого Модуля: проблема → метрика → результат, измеренный на Стенде относительно Примера рудника (например, тонн за смену до и после диспетчеризации). Как воспроизвести замер. Засчитываются только эффекты, воспроизводимые на Стенде. -->
+<!-- For each Module: problem → metric → result, measured on the Stand against the same mine without this Module (for example, output in tonnes per shift without dispatch and with it), and how to reproduce the measurement. Only effects reproducible on the Stand are taken into account. -->
 
-## Данные и допущения
+## Data and Assumptions
 
 <!--
-- Что синтетическое, что реальное.
-- Откуда параметры: паспорт техники, учебник, нормы промбезопасности, датасет.
-- Датасеты: источник, лицензия, как попадают на Стенд (лежат в репозитории или скачиваются по README).
-Конфиденциальные данные компаний и персональные данные запрещены.
+- Synthetic and real data.
+- Sources of parameters: equipment specifications, reference literature, industrial safety regulations, datasets.
+- Datasets: source, license, how they are provided (in the repository or downloaded per the README).
+Confidential data of organizations and personal data are prohibited.
 -->
 
-## Визуализация рудника
+## Mine visualization
 
-<!-- Где смотреть: адрес на Стенде, дашборд, сцена. Что на ней видно. -->
+<!-- Address on the Stand, dashboard or scene; what it shows. -->
 
-## Ограничения
+## Limitations
 
-## Презентация
+## Presentation
 
-`presentation.pdf` в корне репозитория. Видео (необязательно): <ссылка>
+`presentation.pdf` in the repository root. Video (optional): <link>
 
 ---
 
-Платформа: OpenEgiz v1.0.2.
+Platform: OpenEgiz v1.0.2.
