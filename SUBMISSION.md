@@ -45,4 +45,4 @@ Confidential data of organizations and personal data are prohibited.
 
 ---
 
-Platform: OpenEgiz v1.0.3.
+Platform: OpenEgiz v1.0.4.
