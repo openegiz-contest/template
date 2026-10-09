@@ -4,9 +4,11 @@
 
 ## Team
 
-| Participant | GitHub |
-|---|---|
-|  |  |
+<!-- GitHub usernames of the Participants. Other personal data are not required: the repository becomes public after the Freeze (Rules, section 15). -->
+
+| GitHub |
+|---|
+|  |
 
 ## Mine
 
